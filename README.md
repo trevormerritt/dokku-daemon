@@ -4,7 +4,7 @@ A daemon wrapper around [Dokku](https://github.com/dokku/dokku)
 
 ## Requirements
 
-A VM running Ubuntu 14.04 x64 or later with Dokku v0.4.9 installed
+A VM running Ubuntu 14.04 x64 or later with Dokku v0.4.9 or above installed
 
 ## Installing
 
@@ -12,6 +12,15 @@ As a user with access to `sudo`:
 
     git clone https://github.com/dokku/dokku-daemon
     cd dokku-daemon
+    sudo make install
+
+## Debian Notes
+
+As a user with access to `sudo`:
+
+    git clone https://github.com/dokku/dokku-daemon
+    cd dokku-daemon
+    sudo apt-get install socat
     sudo make install
 
 ## Specifications
